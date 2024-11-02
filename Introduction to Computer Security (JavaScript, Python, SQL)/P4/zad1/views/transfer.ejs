@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LegitBank - Przelew</title>
+    <link href="data:image/x-icon;base64,AAABAAEAEBAAAAEACABoBQAAFgAAACgAAAAQAAAAIAAAAAEACAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAyCIUAAAAAACza/gACAAAAAAAZAAMAAAAEAAAAAAMAACcm1wBM3/cAFBXvACUQugAVFe8AFxXvACMClwABAgMAQy0UAIBWMwAj3vwAIQpPACzb/AAiA50AAAABAAIAAQCEVCAAAwABACUjtwAzB4kAExXwAO3YkQAp2/0A89x1ADYJhAAzCIcAg1QhACsPYwAWFu4AT8rZAAECBQBE5PwALwaFAIZWJAAp3PsAMQaFACnb/gAUGOkAAAEAACzb/gAUF+wABAEAAAAAAwABBAAAHRjpACbZ/ABW2+wAgVYlACXc/AAn3PwAKNz8ACnc/AAAAQEAAQEBAAIBAQADAQEAqqFiABQW8AAVFvAA8td1AFry/wAo3P0ACQMEAFpOLgAABAoA9tp1ADkpygAUE/EA/f74APz9+wAp3fsAMgeFACckyQAyBogABQIAABcU7wAUE/IAFhPyAAAABgDy2XEAEhbyAPDYdAAv3PYA8th0AHxVKwAHBAMAKd38ADIHhgB9UxgAJR3eAEW1xgAWFe0ASuj9ALKjZwAUFPAAMgmJAAUCAQAn2/oA8tlyAAAMFwAo3f0ALweHAAEBLgD9/f0AAQICAINSJAAbGpUAAAApAAQCAgAYFPEAKSbOAAUDSgCAVjIAIxfgAAEBFgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOjg8AF9fX19fX19fLgATYjkUMl8LHGMkdShfXy4bIT85AhZhVAoKCgoMXwABXys9bDkBDQoKCgoKCnkbAV8bPjk5LkIKCgoKCgpBGwFfUTE5OQEwcncaVQoKCl8WX09wOVoBPRApERddCgxnLiBKSDkGeBgiIiJxDwgKDj1LcwlOLh9ZV1tDYDdSChUuBXQ7OUYdTG9NSWpcJgptMyo7OTkeGVZHZUBoGVgcI2s5OTs5OWkuegRuUC0KUwY1OTk5OTksOQc0ZkIKCnY9OTk5Ozk5OV4lATIuAxYDLzk5OTs5OTk5OUVkNkQnEjk5OTk7OTk5OTk5OTk5OTk5OTk5OQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=" rel="icon" type="image/x-icon">
+    <style>
+        h1 {
+            background: linear-gradient(to right, orange, yellow, green, cyan, blue, violet);
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-size: 50px;
+        }
+
+        body {
+            font-family: "Comic Sans MS", "Comic Sans";
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #22d71d, #fd2ef6, #9b5300);
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px black;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .form-group input,
+        .form-group textarea {
+            font-family: "Comic Sans MS", "Comic Sans";
+            font-weight: bold;
+            width: 98%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .form-group textarea {
+            resize: none;
+        }
+
+        .submit {
+            font-family: "Comic Sans MS", "Comic Sans";
+            font-weight: bold;
+            background-color: #00af3a;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .submit:hover {
+            background-color: green;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>LegitBank<sup>TM</sup></h1>
+        <h2>Przelew zwykły</h2>
+        <div>Podaj dane do przelewu:</div>
+        <div>&nbsp;</div>
+        <form method="post">
+            <div class="form-group">
+                <label for="kwota">Kwota</label>
+                <input type="number" step="0.01" name="kwota" id="kwota" required>
+            </div>
+            <div class="form-group">
+                <label for="tytul">Tytuł</label>
+                <input type="text" name="tytul" id="tytul" required>
+            </div>
+            <div class="form-group">
+                <label for="nr_rachunku">Numer rachunku</label>
+                <input type="number" step=1 name="nr_rachunku" id="nr_rachunku" required>
+            </div>
+            <button type="submit" class="submit">PRZEJDŹ DALEJ</button>
+        </form>
+    </div>
+
+</body>
+
+</html>

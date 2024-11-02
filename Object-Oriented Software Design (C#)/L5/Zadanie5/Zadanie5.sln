@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Retry", "Zadanie5\Retry.csproj", "{28F96347-8178-4EB7-89E9-8FAA39947526}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hedging", "Hedging\Hedging.csproj", "{18D656AC-18D5-43F2-A23C-E05B571853A2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28F96347-8178-4EB7-89E9-8FAA39947526}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28F96347-8178-4EB7-89E9-8FAA39947526}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28F96347-8178-4EB7-89E9-8FAA39947526}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28F96347-8178-4EB7-89E9-8FAA39947526}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18D656AC-18D5-43F2-A23C-E05B571853A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18D656AC-18D5-43F2-A23C-E05B571853A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18D656AC-18D5-43F2-A23C-E05B571853A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18D656AC-18D5-43F2-A23C-E05B571853A2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {33764011-CDA4-48AC-81E1-0ACB21A5B8ED}
+	EndGlobalSection
+EndGlobal

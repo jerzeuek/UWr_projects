@@ -1,0 +1,22 @@
+sty 15, 2024 3:13:08 PM prezentacja.Okno <init>
+INFO: Uruchomiono aplikacjê.
+sty 15, 2024 3:13:28 PM prezentacja.Okno handleStart
+INFO: Rozpoczêcie nowej gry.
+sty 15, 2024 3:13:32 PM prezentacja.Okno handleCheck
+INFO: Podano liczbê 0,5, jest mniejsza od szukanej.
+sty 15, 2024 3:13:38 PM prezentacja.Okno handleCheck
+INFO: Podano liczbê 0,333, jest mniejsza od szukanej.
+sty 15, 2024 3:13:45 PM prezentacja.Okno handleWin
+INFO: Gracz wygra³.
+sty 15, 2024 3:14:06 PM prezentacja.Okno handleStart
+INFO: Rozpoczêcie nowej gry.
+sty 15, 2024 3:14:10 PM prezentacja.Okno handleWin
+INFO: Gracz wygra³.
+sty 15, 2024 3:14:15 PM prezentacja.Okno handleStart
+INFO: Rozpoczêcie nowej gry.
+sty 15, 2024 3:14:18 PM prezentacja.Okno handleCheck
+INFO: Podano liczbê 0,5, jest mniejsza od szukanej.
+sty 15, 2024 3:14:31 PM prezentacja.Okno handleResignation
+INFO: Gracz podda³ siê, szukana liczba to 0,667
+sty 15, 2024 3:14:48 PM prezentacja.Okno$5 actionPerformed
+INFO: Zamkniêto aplikacjê.

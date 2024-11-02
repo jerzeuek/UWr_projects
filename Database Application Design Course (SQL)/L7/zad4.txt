@@ -1,0 +1,2 @@
+a) db.borrowings.find().sort({id: 1}).skip(db.borrowings.countDocuments() / 2 - 1).limit(2)
+b) db.books.find({"Egzemplarz.ID" : {$lt : 3}})

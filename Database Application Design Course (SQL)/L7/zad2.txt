@@ -1,0 +1,92 @@
+use library
+
+db.books.insertMany([
+  {
+    "ID": 1,
+    "Tytuł": "T1",
+    "Autor": "A1",
+    "ISBN": "ISBN1",
+    "Rok wydania": 2023,
+    "Egzemplarz": [
+      {
+        "ID": 1,
+        "Sygnatura": "S1",
+	"Dostępność": true,
+        "Ostatnie wypożyczenie": new Date("2022-12-31")
+      },
+      {
+        "ID": 2,
+        "Sygnatura": "S2",
+	"Dostępność": true,
+        "Ostatnie wypożyczenie": new Date("2022-12-31")
+      }
+    ]
+  },
+  {
+    "ID": 2,
+    "Tytuł": "T2",
+    "Autor": "A2",
+    "ISBN": "ISBN2",
+    "Rok wydania": 2023,
+    "Egzemplarz": [
+      {
+        "ID": 3,
+        "Sygnatura": "S3",
+	"Dostępność": true,
+        "Ostatnie wypożyczenie": new Date("2022-12-31")
+      }
+    ]
+  }
+]);
+
+db.readers.insertMany([
+  {
+    "ID": 1,
+    "Nazwisko": "Kowalski",
+    "Miasto": "Warszawa",
+    "PESEL": "11223344556",
+    "Limit": 5
+  },
+  {
+    "ID": 2,
+    "Nazwisko": "Nowak",
+    "Miasto": "Warszawa",
+    "PESEL": "11223344557",
+    "Limit": 10
+  }
+]);
+
+db.borrowings.insertMany([
+  {
+    "ID": 1,
+    "ReaderID": 1,
+    "BookID": 1,
+    "Sygnatura": "S1",
+    "Data wypożyczenia": new Date("2022-12-30"),
+    "Czas wypożyczenia": 1
+  },
+  {
+    "ID": 2,
+    "ReaderID": 2,
+    "BookID": 1,
+    "Sygnatura": "S2",
+    "Data wypożyczenia": new Date("2022-12-31"),
+    "Czas wypożyczenia": 1
+  },
+  {
+    "ID": 3,
+    "ReaderID": 2,
+    "BookID": 1,
+    "Sygnatura": "S1",
+    "Data wypożyczenia": new Date("2022-12-31"),
+    "Czas wypożyczenia": 1
+  },
+  {
+    "ID": 4,
+    "ReaderID": 1,
+    "BookID": 2,
+    "Sygnatura": "S3",
+    "Data wypożyczenia": new Date("2022-12-31"),
+    "Czas wypożyczenia": 1
+  }
+]);

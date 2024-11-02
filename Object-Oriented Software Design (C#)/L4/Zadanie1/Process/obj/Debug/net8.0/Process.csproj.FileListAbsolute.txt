@@ -1,0 +1,11 @@
+D:\uniwerek\POO\L4\Zadanie1\Process\bin\Debug\net8.0\Process.deps.json
+D:\uniwerek\POO\L4\Zadanie1\Process\bin\Debug\net8.0\Process.dll
+D:\uniwerek\POO\L4\Zadanie1\Process\bin\Debug\net8.0\Process.pdb
+D:\uniwerek\POO\L4\Zadanie1\Process\obj\Debug\net8.0\Process.GeneratedMSBuildEditorConfig.editorconfig
+D:\uniwerek\POO\L4\Zadanie1\Process\obj\Debug\net8.0\Process.AssemblyInfoInputs.cache
+D:\uniwerek\POO\L4\Zadanie1\Process\obj\Debug\net8.0\Process.AssemblyInfo.cs
+D:\uniwerek\POO\L4\Zadanie1\Process\obj\Debug\net8.0\Process.csproj.CoreCompileInputs.cache
+D:\uniwerek\POO\L4\Zadanie1\Process\obj\Debug\net8.0\Process.dll
+D:\uniwerek\POO\L4\Zadanie1\Process\obj\Debug\net8.0\refint\Process.dll
+D:\uniwerek\POO\L4\Zadanie1\Process\obj\Debug\net8.0\Process.pdb
+D:\uniwerek\POO\L4\Zadanie1\Process\obj\Debug\net8.0\ref\Process.dll

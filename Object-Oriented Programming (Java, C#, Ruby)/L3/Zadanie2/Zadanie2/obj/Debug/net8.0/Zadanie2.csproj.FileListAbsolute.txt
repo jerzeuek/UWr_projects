@@ -1,0 +1,11 @@
+D:\uniwerek\PO\L3REAL\Zadanie2\Zadanie2\bin\Debug\net8.0\Zadanie2.deps.json
+D:\uniwerek\PO\L3REAL\Zadanie2\Zadanie2\bin\Debug\net8.0\Zadanie2.dll
+D:\uniwerek\PO\L3REAL\Zadanie2\Zadanie2\bin\Debug\net8.0\Zadanie2.pdb
+D:\uniwerek\PO\L3REAL\Zadanie2\Zadanie2\obj\Debug\net8.0\Zadanie2.GeneratedMSBuildEditorConfig.editorconfig
+D:\uniwerek\PO\L3REAL\Zadanie2\Zadanie2\obj\Debug\net8.0\Zadanie2.AssemblyInfoInputs.cache
+D:\uniwerek\PO\L3REAL\Zadanie2\Zadanie2\obj\Debug\net8.0\Zadanie2.AssemblyInfo.cs
+D:\uniwerek\PO\L3REAL\Zadanie2\Zadanie2\obj\Debug\net8.0\Zadanie2.csproj.CoreCompileInputs.cache
+D:\uniwerek\PO\L3REAL\Zadanie2\Zadanie2\obj\Debug\net8.0\Zadanie2.dll
+D:\uniwerek\PO\L3REAL\Zadanie2\Zadanie2\obj\Debug\net8.0\refint\Zadanie2.dll
+D:\uniwerek\PO\L3REAL\Zadanie2\Zadanie2\obj\Debug\net8.0\Zadanie2.pdb
+D:\uniwerek\PO\L3REAL\Zadanie2\Zadanie2\obj\Debug\net8.0\ref\Zadanie2.dll

@@ -1,0 +1,11 @@
+D:\uniwerek\POO\L5\Zadanie5\Hedging\bin\Debug\net8.0\Hedging.deps.json
+D:\uniwerek\POO\L5\Zadanie5\Hedging\bin\Debug\net8.0\Hedging.dll
+D:\uniwerek\POO\L5\Zadanie5\Hedging\bin\Debug\net8.0\Hedging.pdb
+D:\uniwerek\POO\L5\Zadanie5\Hedging\obj\Debug\net8.0\Hedging.GeneratedMSBuildEditorConfig.editorconfig
+D:\uniwerek\POO\L5\Zadanie5\Hedging\obj\Debug\net8.0\Hedging.AssemblyInfoInputs.cache
+D:\uniwerek\POO\L5\Zadanie5\Hedging\obj\Debug\net8.0\Hedging.AssemblyInfo.cs
+D:\uniwerek\POO\L5\Zadanie5\Hedging\obj\Debug\net8.0\Hedging.csproj.CoreCompileInputs.cache
+D:\uniwerek\POO\L5\Zadanie5\Hedging\obj\Debug\net8.0\Hedging.dll
+D:\uniwerek\POO\L5\Zadanie5\Hedging\obj\Debug\net8.0\refint\Hedging.dll
+D:\uniwerek\POO\L5\Zadanie5\Hedging\obj\Debug\net8.0\Hedging.pdb
+D:\uniwerek\POO\L5\Zadanie5\Hedging\obj\Debug\net8.0\ref\Hedging.dll

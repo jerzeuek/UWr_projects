@@ -1,0 +1,62 @@
+1NF
+
+ID | Patient     | Address        | PostalCode | City | Date                      | ApointmentLocation  | Price | Physician      | AppointmentType | AppointmentDetails
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+1  | Jan Kot     | 6 Dolna Street | 44-444     | Bór  | 2029-02-01 12:30          | room 12             | 300   | Oleg Wyrwiząb  | Dental          | Denture fitting in (...)
+2  | Maria Mysz  | 9 Górna Street | 55-555     | Las  | 2030-01-04 11:45          | room 7              | 150   | Ewa Ciarka     | Dermatology     | Birthmark inspection (...)
+
+
+2NF
+
+Patient:
+
+ID | FullName   | Address        | PostalCode | City
+-----------------------------------------------------------------
+1  | Jan Kot    | 6 Dolna Street | 44-444     | Bór
+2  | Maria Mysz | 9 Górna Street | 55-555     | Las
+
+Appointment:
+
+ID | PatientID | Date             | Location | Price | Physician             | AppointmentType | AppointmentDetails
+-------------------------------------------------------------------------------------------------------------------------------------
+1  | 1         | 2029-02-01 12:30 | room 12  | 300   | Oleg Wyrwiząb         | Dental          | Denture fitting in (...) 
+2  | 2         | 2030-01-04 11:45 | room 7   | 150   | Ewa  Ciarka           | Dermatology     | Birthmark inspection (...)
+
+
+
+3NF
+
+Patient:
+
+ID | FullName    | Address        | PostalCode
+-----------------------------------------------
+1  | Jan Kot     | 6 Dolna Street | 44-444
+2  | Maria Mysz  | 9 Górna Street | 55-555
+
+Appointment:
+
+ID | PatientID | Date             | Physician     | AppointmentDetails
+-----------------------------------------------------------------------------------------------------------------
+1  | 1         | 2029-02-01 12:30 | Oleg Wyrwiząb | Denture fitting in (...)
+2  | 2         | 2030-01-04 11:45 | Ewa Ciarka    | Birthmark inspection (...)
+
+Offices:
+
+Physician     | Office
+--------------------
+Oleg Wyrwiząb | room 12
+Ewa Ciarka    | room 7
+
+AppointmentTypes:
+
+AppointmentDetails         | AppointmentType | Price
+-----------------------------------------------------
+Denture fitting in (...)   | Dental          | 300
+Birthmark inspection (...) | Dermatology     | 150
+
+City:
+
+PostalCode | City
+------------------
+44-444     | Bór
+55-555     | Las

@@ -1,0 +1,4 @@
+D:\uniwerek\POO\L5\Zadanie5\Zadanie5\obj\Debug\net8.0\Retry.GeneratedMSBuildEditorConfig.editorconfig
+D:\uniwerek\POO\L5\Zadanie5\Zadanie5\obj\Debug\net8.0\Retry.AssemblyInfoInputs.cache
+D:\uniwerek\POO\L5\Zadanie5\Zadanie5\obj\Debug\net8.0\Retry.AssemblyInfo.cs
+D:\uniwerek\POO\L5\Zadanie5\Zadanie5\obj\Debug\net8.0\Retry.csproj.CoreCompileInputs.cache

@@ -1,0 +1,33 @@
+#lang racket
+
+(define (split xs)
+  (define (it xs ys)
+    (if (< (length xs) (+ (length ys) 1 ))
+        (append (list ys) xs)
+        (it (cdr xs) (append ys (list (car xs))))))
+  (it xs null))
+
+(define (merge xs ys)
+  (define (it new xs ys)
+    (if (or (null? xs) (null? ys))
+        (append new xs ys)
+        (if (< (car xs) (car ys))
+            (it (append new (list (car xs))) (cdr xs) ys)
+            (it (append new (list (car ys))) xs (cdr ys)))))
+  (it null xs ys))
+
+(define (merge-sort xs)
+  (if (>(length xs) 1)
+      (merge (merge-sort (car (split xs))) (merge-sort (cdr (split xs))))
+      xs))
+
+;(merge-sort '(4 2 1 3)) ->
+;(merge (merge-sort (car (split '(4 2 1 3)))) (merge-sort (cdr (split '(4 2 1 3))))) ->
+;(merge (merge-sort (car '((4 2) 1 3))) (merge-sort (cdr '((4 2) 1 3)))) ->
+;(merge (merge-sort '(4 2)) (merge-sort '(1 3))) ->
+;(merge (merge (merge-sort (car (split '(4 2)))) (merge-sort(cdr (split '(4 2))))) (merge (merge-sort (car (split'(1 3)))) (merge-sort(cdr (split '(1 3)))))) ->
+;(merge (merge (merge-sort car '((4) 2)) (merge-sort (cdr '((4) 2)))) (merge (merge-sort car '((1) 3)) (merge-sort cdr '((1) 3)))) ->
+;(merge (merge (merge-sort '(4)) (merge-sort '(2))) (merge (merge-sort '(1)) (merge-sort '(3)))) ->
+;(merge (merge '(4) '(2)) (merge '(1) '(3))) ->
+;(merge '(2 4) '(1 3)) ->
+;'(1 2 3 4)

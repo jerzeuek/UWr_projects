@@ -1,0 +1,11 @@
+D:\uniwerek\POO\L4\Zadanie2\ShapeFactory\bin\Debug\net8.0\ShapeFactory.deps.json
+D:\uniwerek\POO\L4\Zadanie2\ShapeFactory\bin\Debug\net8.0\ShapeFactory.dll
+D:\uniwerek\POO\L4\Zadanie2\ShapeFactory\bin\Debug\net8.0\ShapeFactory.pdb
+D:\uniwerek\POO\L4\Zadanie2\ShapeFactory\obj\Debug\net8.0\ShapeFactory.GeneratedMSBuildEditorConfig.editorconfig
+D:\uniwerek\POO\L4\Zadanie2\ShapeFactory\obj\Debug\net8.0\ShapeFactory.AssemblyInfoInputs.cache
+D:\uniwerek\POO\L4\Zadanie2\ShapeFactory\obj\Debug\net8.0\ShapeFactory.AssemblyInfo.cs
+D:\uniwerek\POO\L4\Zadanie2\ShapeFactory\obj\Debug\net8.0\ShapeFactory.csproj.CoreCompileInputs.cache
+D:\uniwerek\POO\L4\Zadanie2\ShapeFactory\obj\Debug\net8.0\ShapeFactory.dll
+D:\uniwerek\POO\L4\Zadanie2\ShapeFactory\obj\Debug\net8.0\refint\ShapeFactory.dll
+D:\uniwerek\POO\L4\Zadanie2\ShapeFactory\obj\Debug\net8.0\ShapeFactory.pdb
+D:\uniwerek\POO\L4\Zadanie2\ShapeFactory\obj\Debug\net8.0\ref\ShapeFactory.dll

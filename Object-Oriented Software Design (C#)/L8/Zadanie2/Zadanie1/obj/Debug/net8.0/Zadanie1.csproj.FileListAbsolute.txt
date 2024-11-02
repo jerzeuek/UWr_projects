@@ -1,0 +1,14 @@
+D:\uniwerek\POO\L8\Zadanie1\Zadanie1\bin\Debug\net8.0\Zadanie1.exe
+D:\uniwerek\POO\L8\Zadanie1\Zadanie1\bin\Debug\net8.0\Zadanie1.deps.json
+D:\uniwerek\POO\L8\Zadanie1\Zadanie1\bin\Debug\net8.0\Zadanie1.runtimeconfig.json
+D:\uniwerek\POO\L8\Zadanie1\Zadanie1\bin\Debug\net8.0\Zadanie1.dll
+D:\uniwerek\POO\L8\Zadanie1\Zadanie1\bin\Debug\net8.0\Zadanie1.pdb
+D:\uniwerek\POO\L8\Zadanie1\Zadanie1\obj\Debug\net8.0\Zadanie1.GeneratedMSBuildEditorConfig.editorconfig
+D:\uniwerek\POO\L8\Zadanie1\Zadanie1\obj\Debug\net8.0\Zadanie1.AssemblyInfoInputs.cache
+D:\uniwerek\POO\L8\Zadanie1\Zadanie1\obj\Debug\net8.0\Zadanie1.AssemblyInfo.cs
+D:\uniwerek\POO\L8\Zadanie1\Zadanie1\obj\Debug\net8.0\Zadanie1.csproj.CoreCompileInputs.cache
+D:\uniwerek\POO\L8\Zadanie1\Zadanie1\obj\Debug\net8.0\Zadanie1.dll
+D:\uniwerek\POO\L8\Zadanie1\Zadanie1\obj\Debug\net8.0\refint\Zadanie1.dll
+D:\uniwerek\POO\L8\Zadanie1\Zadanie1\obj\Debug\net8.0\Zadanie1.pdb
+D:\uniwerek\POO\L8\Zadanie1\Zadanie1\obj\Debug\net8.0\Zadanie1.genruntimeconfig.cache
+D:\uniwerek\POO\L8\Zadanie1\Zadanie1\obj\Debug\net8.0\ref\Zadanie1.dll

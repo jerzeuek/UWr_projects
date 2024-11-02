@@ -1,0 +1,14 @@
+D:\uniwerek\POO\L9\Lista9\Lista9\bin\Debug\net8.0\Lista9.exe
+D:\uniwerek\POO\L9\Lista9\Lista9\bin\Debug\net8.0\Lista9.deps.json
+D:\uniwerek\POO\L9\Lista9\Lista9\bin\Debug\net8.0\Lista9.runtimeconfig.json
+D:\uniwerek\POO\L9\Lista9\Lista9\bin\Debug\net8.0\Lista9.dll
+D:\uniwerek\POO\L9\Lista9\Lista9\bin\Debug\net8.0\Lista9.pdb
+D:\uniwerek\POO\L9\Lista9\Lista9\obj\Debug\net8.0\Lista9.GeneratedMSBuildEditorConfig.editorconfig
+D:\uniwerek\POO\L9\Lista9\Lista9\obj\Debug\net8.0\Lista9.AssemblyInfoInputs.cache
+D:\uniwerek\POO\L9\Lista9\Lista9\obj\Debug\net8.0\Lista9.AssemblyInfo.cs
+D:\uniwerek\POO\L9\Lista9\Lista9\obj\Debug\net8.0\Lista9.csproj.CoreCompileInputs.cache
+D:\uniwerek\POO\L9\Lista9\Lista9\obj\Debug\net8.0\Lista9.dll
+D:\uniwerek\POO\L9\Lista9\Lista9\obj\Debug\net8.0\refint\Lista9.dll
+D:\uniwerek\POO\L9\Lista9\Lista9\obj\Debug\net8.0\Lista9.pdb
+D:\uniwerek\POO\L9\Lista9\Lista9\obj\Debug\net8.0\Lista9.genruntimeconfig.cache
+D:\uniwerek\POO\L9\Lista9\Lista9\obj\Debug\net8.0\ref\Lista9.dll

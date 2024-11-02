@@ -1,0 +1,12 @@
+#lang racket
+
+( define-type ( NNF 'v)
+   (nnf-lit [ polarity : Boolean ] [ var : 'v ])
+   (nnf-conj [l : ( NNF 'v)] [r : ( NNF 'v) ])
+   (nnf-disj [l : ( NNF 'v)] [r : ( NNF 'v) ]) )
+
+(define (neg-nnf form)
+  (type-case NNF form
+    [(nnf-lit pol v) (nnf-lit (not pol) v)]
+    [(nnf-conj l r) (nnf-disj l r)]
+    [(nnf-disj l r) (nnf-conj l r)]))

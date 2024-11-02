@@ -1,0 +1,59 @@
+ORIGINAL
+
+CREATE
+  (charlie:Person {name: 'Charlie Sheen'}),
+  (martin:Person {name: 'Martin Sheen'}),
+  (michael:Person {name: 'Michael Douglas'}),
+  (oliver:Person {name: 'Oliver Stone'}),
+  (rob:Person {name: 'Rob Reiner'}),
+  (wallStreet:Movie {title: 'Wall Street'}),
+  (lotr:Movie {title: 'Lord Of The Rings'}),
+  (charlie)-[:ACTED_IN {role: 'Bud Fox'}]->(wallStreet),
+  (martin)-[:ACTED_IN {role: 'Carl Fox'}]->(wallStreet),
+  (michael)-[:ACTED_IN {role: 'Gordon Gekko'}]->(wallStreet),
+  (michael)-[:ACTED_IN {role: 'George Smith'}]->(lotr),
+  (oliver)-[:DIRECTED]->(wallStreet),
+  (oliver)-[:ACTED_IN {role: 'John Doe'}]->(wallStreet),
+  (thePresident:Movie {title: 'The American President'}),
+  (martin)-[:ACTED_IN {role: 'A.J. MacInerney'}]->(thePresident),
+  (michael)-[:ACTED_IN {role: 'President Andrew Shepherd'}]->(thePresident),
+  (rob)-[:DIRECTED]->(thePresident),
+  (martin)-[:FATHER_OF]->(charlie)
+
+
+a) Add 2 new actors and 2 new movies:
+
+CREATE
+  (morgan:Person {name: 'Morgan Freeman'}),
+  (samuel:Person {name: 'Samuel L. Jackson'}),
+  (shawshank:Movie {title: 'The Shawshank Redemption'}),
+  (pulpFiction:Movie {title: 'Pulp Fiction'});
+
+
+b) Add 2 new properties to 1 movie:
+
+MATCH (movie:Movie {title: 'Pulp Fiction'})
+SET movie.genre = 'Action',
+    movie.releaseYear = 1994;
+
+
+c) Add 2 new ACTED_IN relations to existing nodes:
+
+MATCH (actor:Person {name: 'Samuel L. Jackson'}), (movie:Movie {title: 'Pulp Fiction'})
+CREATE (actor)-[:ACTED_IN {role: 'Jules Winnfield'}]->(movie);
+
+MATCH (actor:Person {name: 'Morgan Freeman'}), (movie:Movie {title: 'The Shawshank Redemption'})
+CREATE (actor)-[:ACTED_IN {role: 'Red'}]->(movie);
+
+
+d) Update 1 movie property:
+
+MATCH (movie:Movie {title: 'Pulp Fiction'})
+SET movie.genre = 'Crime';
+
+
+
+e) Remove 1 ACTED_IN relation:
+
+MATCH (actor:Person {name: 'Charlie Sheen'})-[actedIn:ACTED_IN]->(movie:Movie {title: 'Wall Street'})
+DELETE actedIn;

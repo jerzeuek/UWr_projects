@@ -1,0 +1,11 @@
+#lang plait
+
+(define (a x y)
+  x)
+ 
+
+
+(define (b f)
+  (lambda (x) x))
+
+( define ( curry f) ( lambda (x) ( lambda (y) (f x y))))

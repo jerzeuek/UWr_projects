@@ -1,0 +1,502 @@
+﻿<!doctype html>
+<html>
+<head>
+	<title>Zajęcia, rok akademicki 2019/2020, semestr 2</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<style type="text/css">
+	.c {
+		font-family : Courier New;
+	}
+	
+	body {
+		font-size : 16px;
+		width     : 100%;
+	}
+	
+	table {
+		border-collapse: collapse;
+	}
+
+	table, th, td {
+		border  : 1px solid black;
+		padding : 3px;
+	}		
+	</style>
+	<script>
+	window.addEventListener("load", function() {
+		Array.from(document.querySelectorAll("a")).forEach((a) => { if ( a.href && a.href.indexOf("#") < 0 ) a.target = "_blank"; });
+	});
+	</script>
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body background="../_themes/backg.jpg">
+
+<div style="text-align : right">
+<a href="/~wzychla" class="home">
+	powrót do strony głównej <i class="fa fa-home" aria-hidden="true"></i>
+</a>
+</div>
+
+<!-- Sekcja nagłówków i obrazka tytułowego -->
+<h3>Zajęcia, rok akademicki 2019/2020, semestr 2</h3>
+
+<h2>Projektowanie obiektowe oprogramowania</h2>
+
+<div><b>Uwaga! W związku z sytuacją epidemiczną, zajęcia będą kontynuowane w formie zdalnej</b></div>
+
+<div>
+Materiał wykładu będzie również publikowany na <a href="https://e-edu.cko.uni.wroc.pl/">Platformie e-Learningowej Uniwersytetu Wrocławskiego</a>
+(Wydział Matematyki i Informatyki / POO 19/20-L). Bardzo proszę o dopisanie się do zajęć. Klucz dostępu: <b>POO!</b>
+</div>
+
+<p><i>	
+  Wykład skierowany jest do przyszłych architektów i projektantów systemów
+  informatycznych oraz do wszystkich programistów zainteresowanych
+  udoskonaleniem swojego warsztatu. Celem wykładu jest zapoznanie
+  studentów z kanonem współczesnych narzędzi w zakresie projektowania
+  obiektowego oprogramowania.</i></p>
+
+ <p>Materiał wykładu obejmuje:</p>
+ 
+ <ul>
+  <li>język UML w zakresie wymaganym przez projekty analityczne
+  i techniczne
+  <li>przegląd katalogu refaktoryzacji
+  <li>przegląd katalogu wzorców projektowych (GoF) (m.in. Observer,
+  Builder, Bridge, State, Strategy, Facade, Adapter, Mediator, itd.)
+  <li>przegląd katalogu wzorców aplikacyjnych 
+  (m.in. Event Aggregator, Model-View-Controller, Model-View-Presenter, Object-Relational Mapping, Dependency Injection, Mock Object)
+  <li>przegląd katalogu wzorców architektonicznych
+  (m.in. Single Sign-on, SOA, Enterprise Service Bus, Command-Query Responsibility Separation)
+ </ul>
+
+  <p>Celem pracowni jest praktyczny kontakt z materiałem z wykładu.</p>
+  
+ <h3>Wymagania</h3>
+ 
+ Wymagany ukończony kurs języka Java lub C# - wszystkie przykłady będą bazowały na języku C#, 
+ a większość zadań studenci będą rozwiązywali w językach C# lub Java (do wyboru).
+ 
+ <h3>Organizacja pracy</h3>
+ 
+ Podczas wykładu omawiane są kolejne zagadnienia według programu. Podczas ćwiczeń studenci zgłaszają <b>gotowość</b> do 
+ zaprezentowania rozwiązań wybranych przez siebie zadań, wypełniając wcześniej standardowe paski deklaracji.
+ 
+ Prowadzący sprawdza indywidualnie (lub grupowo dla niektórych zadań, według uznania prowadzącego) rozwiązania wybranych zadań. Obecność na ćwiczeniach jest w związku z tym nieobowiązkowa.
+
+ Podstawą zaliczenia jest liczba zgromadzonych punktów. 
+ 
+ <table border="0" cellpadding="3" cellspacing="3">
+   <tr>
+      <td>5.0</td> <td>&gt;= 80% </td>
+   </tr>
+   <tr>   
+      <td>4.0</td> <td>&gt;= 60% </td>
+   </tr>
+   <tr>   
+      <td>3.0</td> <td>&gt;= 40% </td>
+   </tr>
+   <tr>   
+      <td>2.0</td> <td>&lt; 40% </td>
+   </tr>
+ </table>
+
+ <h3>Egzamin</h3>
+ 
+ <!--
+ Egzamin odbędzie się dnia 21.06.2019 (piątek) w godz. 08:30-10:00 w sali 25.
+ Egzamin ma formę pisemną.
+ -->
+
+ <h3>Rankingi cząstkowe (grupa WZY) </h3>
+
+ <!--
+ <div> 
+ <a href="./po/punktacja_poo_20182019.pdf">Punktacja na 2019-05-07</a>
+ </div>
+ <div> 
+ <a href="./po/punktacja_poo_20182019_2.pdf">Punktacja na 2019-06-04</a>
+ </div>
+ -->
+ 
+ <h3>Odnośniki do wykładów</h3>
+
+<ol>
+<li><a href="#wyklad1">Wykład 1</a> 2020-03-03 <b>Wprowadzenie do projektowania obiektowego</b></li>
+<li><a href="#wyklad2">Wykład 2</a> 2020-03-10 <b>Język UML</b></li>
+<!--
+<li><a href="#wyklad3">Wykład 3</a> 2019-03-12 <b>SOLID GRASP</b></li>
+<li><a href="#wyklad4">Wykład 4</a> 2019-03-19 <b>Wzorce projektowe (1)</b></li>
+<li><a href="#wyklad5">Wykład 5</a> 2019-03-26 <b>Wzorce projektowe (2)</b></li>
+<li><a href="#wyklad6">Wykład 6</a> 2019-04-02 <b>Wzorce projektowe (3)</b></li>
+<li><a href="#wyklad7">Wykład 7</a> 2019-04-09 <b>Wzorce projektowe (4)</b></li>
+<li><a href="#wyklad8">Wykład 8</a> 2019-04-16 <b>Wzorce projektowe (5)</b></li>
+<li><a href="#wyklad9">Wykład 9</a> 2019-04-30 <b>Wzorce architektury aplikacji (1)</b></li>
+<li><a href="#wyklad10">Wykład 10</a> 2019-05-07 <b>Wzorce architektury aplikacji (2)</b></li>
+<li><a href="#wyklad11">Wykład 11</a> 2019-05-14 <b>Wzorce architektury aplikacji (3)</b></li>
+<li><a href="#wyklad12">Wykład 12</a> 2019-05-21 <b>Wzorce architektury aplikacji (4)</b></li>
+<li><a href="#wyklad13">Wykład 13</a> 2019-05-28 <b>Testowanie oprogramowania</b></li>
+<li><a href="#wyklad14">Wykład 14</a> 2019-06-04 <b>Architektura systemów (1)</b></li>
+<li><a href="#wyklad15">Wykład 15</a> 2019-06-11 <b>Architektura systemów (2)</b></li>
+-->
+</ol> 
+ 
+ <h3>Laboratoria</h3>
+ 
+ <table>
+ 
+ <tr>
+	<th>Data ogłoszenia</th>
+	<th>Data ważności</th>
+	<th>Zestaw zadań</th>
+ </tr>
+ <tr>
+	<td>2020-03-03</td>
+	<td>2020-03-17</td>
+	<td><a href="./po/oopz1.pdf">Zestaw 1</a></td>
+ </tr>
+ <tr>
+	<td>2020-03-10</td>
+	<td>2020-03-24</td>
+	<td><a href="./po/oopz2.pdf">Zestaw 2</a></td>
+ </tr>
+ <!--
+  <tr>
+	<td>2019-03-12</td>
+	<td>2019-03-26</td>
+	<td><a href="./po/oopz3.pdf">Zestaw 3</a></td>
+ </tr>
+ <tr>
+	<td>2019-03-19</td>
+	<td>2019-04-02</td>
+	<td><a href="./po/oopz4.pdf">Zestaw 4</a></td>
+ </tr>
+ <tr>
+	<td>2019-03-26</td>
+	<td>2019-04-09</td>
+	<td><a href="./po/oopz5.pdf">Zestaw 5</a></td>
+ </tr>
+ <tr>
+	<td>2019-04-02</td>
+	<td>2019-04-16</td>
+	<td><a href="./po/oopz6.pdf">Zestaw 6</a></td>
+ </tr>
+ <tr>
+	<td>2019-04-09</td>
+	<td>2019-04-30</td>
+	<td><a href="./po/oopz7.pdf">Zestaw 7</a></td>
+ </tr>
+ <tr>
+	<td>2019-04-16</td>
+	<td>2019-05-07</td>
+	<td><a href="./po/oopz8.pdf">Zestaw 8</a></td>
+ </tr>
+ <tr>
+	<td>2019-05-07</td>
+	<td>2019-05-21</td>
+	<td><a href="./po/oopz9.pdf">Zestaw 9</a></td>
+ </tr>
+ <tr>
+	<td>2019-05-14</td>
+	<td>2019-05-28</td>
+	<td><a href="./po/oopza.pdf">Zestaw A</a></td>
+ </tr>
+ <tr>
+	<td>2019-05-21</td>
+	<td>2019-06-04</td>
+	<td><a href="./po/oopzb.pdf">Zestaw B</a></td>
+ </tr>
+ <tr>
+	<td>2019-06-04</td>
+	<td>do końca semestru</td>
+	<td><a href="./po/oopzc.pdf">Zestaw C</a></td>
+ </tr>
+ -->
+ </table>
+ 
+ <h3>Wykłady</h3>
+ 
+ <ol>
+ 
+<li id="wyklad1">2020-03-03, <b>Wprowadzenie do projektowania obiektowego</b>
+	<ul>
+	<li>Omówienie <a href="./po/OOPCourse2020.pdf" target="_blank">programu wykładu</a>
+	<li>Analiza obiektowa - Unified Process
+	<ul>
+		<li>Zbieranie wymagań: FURPS+, S.M.A.R.T.
+		<li>Przypadki użycia - notacja skrócona, pełna
+		<li>Model pojęciowy, techniki tworzenia ("lista kategorii", "metoda fraz rzeczownikowych")
+	</ul>
+	</ul>
+
+<a href="./po/w1.pdf" target="_blank">Notatki do wykładu 1</a>
+<br/>	
+<a href="./po/oopz1.pdf" target="_blank">Zestaw 1</a> (do 2020-03-17)
+
+<li id="wyklad2">2020-03-10, <b>Język UML</b>
+	<ul>
+		<li>Diagramy klas
+			<ul>
+				<li>Diagramy modeli pojęciowych
+				<li>Diagramy obiektów (klas)
+				<li>Diagramy implementacyjne (struktur relacyjnych)
+				<li>Diagramy obiektów
+			</ul>
+		<li>Diagramy komponentów
+		<li>Diagramy sekwencji
+		<li>Diagramy czynności
+		<li>Diagramy stanów
+		<li>Zwięzła <a href="http://www.uml-diagrams.org/">ściągawka</a>
+	</ul>
+
+<a href="./po/w2.pdf" target="_blank">Notatki do wykładu 2</a>
+<br/>	
+<a href="./po/oopz2.pdf" target="_blank">Zestaw 2</a> (do 2020-03-24)
+
+<!--
+<li id="wyklad3">2019-03-12, <b>SOLID GRASP</b>
+	<ul>
+	<li>SOLID
+		<ul>
+		<li><b>S</b>ingle Responsibility Principle
+		<li><b>O</b>pen Closed Principle
+		<li><b>L</b>iskov Substitution Principle
+		<li><b>I</b>interface Segregation Principle
+		<li><b>D</b>ependency Inversion Principle
+		</ul>
+	<li>GRASP
+		<ul>
+		<li>Creator
+		<li>Information Expert
+		<li>Low Coupling
+		<li>High Cohesion
+		<li>Controller
+		<li>Protected Variations
+		<li>Polymorphism
+		<li>Pure fabrication
+		<li>Indirection
+		</ul>
+	</ul>
+
+<a href="./po/w3.pdf" target="_blank">Notatki do wykładu 3</a>
+<br/>	
+<a href="./po/oopz3.pdf" target="_blank">Zestaw 3</a> (do 2019-03-26)
+
+<li id="wyklad4">2019-03-19, <b>Wzorce projektowe (1)</b>
+	<ul>
+	<li>Wzorce podstawowe
+		<ul>
+		<li>Interface vs abstract class
+		<li>Delegation vs inheritance
+		</ul>
+	<li>Wzorce kreacyjne
+	    <ul>
+		<li>Singleton
+		<li>Monostate
+		<li>Factory
+		<li>Template method
+		<li>Abstract factory
+		<li>Object pool
+			<ul>
+			<li>Jak testować kreowanie w ścieżce pozytywnej (pool zwraca obiekt)?
+			<li>Jak testować scenariusz niepowodzenia (przekroczenie wielkości pool)?
+			<li>Jak testować metodę do zwracania obiektu do pool?
+			<li>Z czego wynika taka a nie inna specyfika implementacji, w której istnieje konieczność zapamiętania referencji
+				do obiektów wydanych klientom? Jak inaczej zaprojektować interfejs pool tak, żeby uniknąć tej niedogodności?
+			</ul>
+		</ul>
+	<li>Testy jednostkowe - framework NUnit, NUnit.Runners
+	</ul>
+
+<a href="./po/w4.pdf" target="_blank">Notatki do wykładu 4</a>
+<br/>	
+<a href="./po/oopz4.pdf" target="_blank">Zestaw 4</a> (do 2019-04-02)
+
+<li id="wyklad5">2019-03-26, <b>Wzorce projektowe (2)</b>
+	<ul>
+	<li>Wzorce strukturalne
+	    <ul>
+		<li>Builder
+		<li>Facade
+		<li>Decorator
+		<li>Proxy
+		<li>Adapter
+		<li>Flyweight
+		<li>Bridge
+		<li>Read-only interface
+		</ul>
+	</ul>
+
+<a href="./po/w5.pdf" target="_blank">Notatki do wykładu 5</a>
+<br/>	
+<a href="./po/oopz5.pdf" target="_blank">Zestaw 5</a> (do 2019-04-09)
+
+<li id="wyklad6">2019-04-02, <b>Wzorce projektowe (3)</b>
+	<ul>
+	<li>Wzorce czynnościowe (1)
+		<ul>
+		<li>Interpreter
+		<li>Composite
+		<li>Visitor
+		<li>Null object
+		<li>Iterator
+		</ul>
+	</ul>
+
+<a href="./po/w6.pdf">Notatki do wykładu 6</a>
+<br/>
+<a href="./po/oopz6.pdf">Zestaw 6</a> (do 2019-04-16)
+
+<li id="wyklad7">2019-04-09, <b>Wzorce projektowe (4)</b>
+	<ul>
+	<li>Wzorce czynnościowe (2)
+		<ul>
+		<li>Observer
+		<li>Mediator
+		<li>Event Aggregator 
+		<li>Memento 
+		</ul>
+	</ul>
+
+<a href="./po/w7.pdf">Notatki do wykładu 7</a>
+<br/>	
+<a href="./po/oopz7.pdf">Zestaw 7</a> (do 2019-04-30)
+
+<li id="wyklad8">2019-04-16, <b>Wzorce projektowe (5)</b>
+	<ul>
+	<li>Wzorce czynnościowe (3)
+		<ul>
+		<li>Chain of Responsibility
+		<li>Command
+		<li>State
+		<li>Strategy
+		<li>Template method
+		</ul>
+	</ul>
+
+<a href="./po/w8.pdf">Notatki do wykładu 8</a>
+<br/>	
+<a href="./po/oopz8.pdf">Zestaw 8</a> (do 2019-05-07) 
+
+<li id="wyklad9">2019-04-30, <b>Wzorce architektury aplikacji (1)</b>
+	<ul>
+	<li>Automated code generation
+	<li>Object-relational mapping
+		<ul>
+		<li>Database first vs model first vs code first
+		<li>Metadata mapping
+		<li>Navigation properties
+		<li>Lazy loading
+		<li>One-to-one
+		<li>Many-to-many
+		<li>Hierarchy mapping (TPC/TPH/TPT)
+		<li>1st level cache vs 2nd level cache
+		<li>Query language
+		<li>Global filter
+		<li>Soft delete
+		</ul>
+	</ul>
+
+<a href="./po/w9.pdf">Notatki do wykładu 9</a>
+
+<li id="wyklad10">2019-05-07, <b>Wzorce architektury aplikacji (2)</b>
+	<ul>
+	<li>Dependency Injection/Inversion of Control
+	</ul>
+
+<a href="./po/wa.pdf">Notatki do wykładu 10</a>
+<br/>	
+<a href="./po/oopz9.pdf">Zestaw 9</a> (do 2019-05-21)
+
+<li id="wyklad11">2019-05-14, <b>Wzorce architektury aplikacji (3)</b>
+	<ul>
+	<li>Repository - Concrete Repository vs Generic Repository
+	<li>Unit of Work
+	</ul>
+
+<a href="./po/wb.pdf">Notatki do wykładu 11</a>
+<br/>	
+<a href="./po/oopza.pdf">Zestaw A</a> (do 2019-05-28)
+<br/>
+<a href="../ra2E2F/20150512_p1.zip">Przykład z wykładu</a> 
+<br/>	
+
+<li id="wyklad12">2019-05-22, <b>Wzorce architektury aplikacji (4)</b>
+	<ul>
+	<li>Model-View-Controller
+	<li>Model-View-Presenter 
+	</ul>
+
+<a href="./po/wc.pdf">Notatki do wykładu 12</a>
+<br/>	
+<a href="./po/oopzb.pdf">Zestaw B</a> (do 2019-06-04)
+<br/>
+<a href="../ra2G2H/MVP.Example.zip">Przykład z wykładu</a>
+
+<li id="wyklad13">2019-05-28, <b>Testowanie oprogramowania</b>
+	<ul>
+	<li>TDD - Test Driven Development
+	<li>BDD - Behavior-Driven Design
+	<li>Dummy vs Stub vs Fake vs Mock
+	<li>Testowanie za pomocą ram typów zastępczych
+	<li>Design by Contract: Code Contracts
+	</ul>
+
+<a href="./po/wd.pdf">Notatki do wykładu 13</a>
+
+<li id="wyklad14">2019-06-04, <b>Architektura systemów (1)</b>
+	<ul>
+	<li>Interoperability
+	<li>PKI, X.509, PKCS#12
+	<li>XmlDSign, XaDES
+	<li>SAML/OAuth2
+		<ul>
+		<li><a href="http://www.wiktorzychla.com/2014/11/simple-oauth2-federated-authentication.html">Simple OAuth2 Federated Authentication using DotNetOpenAuth</a>		
+		<li><a href="https://www.wiktorzychla.com/2014/11/simplest-saml11-federated-authentication.html">Simplest SAML1 Federated Authentication</a>
+		</ul>
+	<li>interoperacyjność klasy enterprise w praktyce - <a href="https://epuap.gov.pl">ePUAP</a> (Elektroniczna Platforma Usług Administracji Publicznej)
+		<ul>
+		<li>Interoperacyjność uwierzytelniania - logowanie SAML2 za pomocą Profilu Zaufanego
+		<li>Interoperacyjność usług - przykładowa usługa podpisywania dokumentów, zgodna z WS-Security
+		</ul>
+	</ul>
+
+<a href="./po/we.pdf">Notatki do wykładu 14</a>
+<br/>	
+<a href="./po/oopzc.pdf">Zestaw C (ostatni)</a> (do końca semestru)
+
+<li id="wyklad15">2019-06-11, <b>Architektura systemów (2)</b>
+	<ul>
+	<li>Service Oriented Architecture - przegląd pojęć
+	<li>Message-Oriented Middleware
+	<li>Command-Query Responsibility Segregation (CQRS)
+	<li><a href="../ra2G2H/Messaging.Examples.zip">Przykład implementacji mechanizmów integracyjnych dla MSMQ, RabbitMQ i MassTransit</a>
+	</ul>
+
+<a href="./po/wf.pdf">Notatki do wykładu 15</a>
+
+-->    
+	
+</ol>
+    
+ <h3>Literatura podstawowa</h3>
+
+ <ol>
+ <li>Wrycza, Marcinkowski, Wyrzykowski - Język UML 2.0 w modelowaniu systemów informatycznych
+ <li>Fowler - Refactoring: Improving the Design of Existing Code
+ <li>Gamma, Helm, Johnson, Vlissides: Design Patterns: Elements of Reusable Object-Oriented Software
+ <li>B.Martin, M.Martin. Programowanie zwinne: zasady, wzorce i praktyki zwinnego wytwarzania oprogramowania w C#.
+ <li>Larman - UML i wzorce projektowe. Analiza i projektowanie obiektowe oraz iteracyjny model wytwarzania aplikacji
+ <li>Fowler - Patterns of Enterprise Application Architecture
+ <li>Microsoft Patterns & Practices - Application Architecture Guide	
+ </ol>	
+
+ <h3>Literatura uzupełniająca</h3>
+ <ol>
+ <li>Seeman - <a href="https://www.manning.com/books/dependency-injection-in-dot-net">Dependency Injection in .NET</a>
+ <li>Hohpe, Wolf - <a href="http://www.enterpriseintegrationpatterns.com/">Enterprise Integration Patterns</a>
+ <li>Betts, Dominguez et al. - <a href="https://www.microsoft.com/en-us/download/details.aspx?id=34774">Exploring CQRS and Event Sourcing</a>
+ </ol>
+	
+</body>
+</html>

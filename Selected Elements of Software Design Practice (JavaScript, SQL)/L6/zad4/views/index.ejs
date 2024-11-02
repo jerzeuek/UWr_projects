@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <form method="POST">
+        <div>
+            Zadanie: <input type='number' name='abc' value='<%= abc%>' />
+        </div>
+        <button>Zapisz</button>
+        <% if (locals.message) { %>
+            <div>
+                <%= locals.message %>
+            </div>
+            <% } %>
+    </form>
+</body>
+
+</html>

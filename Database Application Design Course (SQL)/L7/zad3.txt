@@ -1,0 +1,61 @@
+db.createCollection("books", {
+  validator: {
+    $jsonSchema: {
+      bsonType: "object",
+      required: ["ID", "Tytuł", "Autor", "ISBN", "Rok wydania", "Egzemplarz"],
+      properties: {
+        ID: { bsonType: "int" },
+        Tytuł: { bsonType: "string" },
+        Autor: { bsonType: "string" },
+        ISBN: { bsonType: "string" },
+        "Rok wydania": { bsonType: "int" },
+        Egzemplarz: {
+          bsonType: "array",
+          items: {
+            bsonType: "object",
+            required: ["ID", "Sygnatura", "Dostępność", "Ostatnie wypożyczenie"],
+            properties: {
+              ID: { bsonType: "int" },
+              Sygnatura: { bsonType: "string" },
+              Dostępność: { bsonType: "bool" },
+              "Ostatnie wypożyczenie": { bsonType: "date" },
+            },
+          },
+        },
+      },
+    },
+  },
+});
+
+db.createCollection("readers", {
+  validator: {
+    $jsonSchema: {
+      bsonType: "object",
+      required: ["ID", "Nazwisko", "Miasto", "PESEL", "Limit"],
+      properties: {
+        ID: { bsonType: "int" },
+        Nazwisko: { bsonType: "string" },
+        Miasto: { bsonType: "string" },
+        PESEL: { bsonType: "string" },
+        Limit: { bsonType: "int" },
+      },
+    },
+  },
+});
+
+db.createCollection("borrowings", {
+  validator: {
+    $jsonSchema: {
+      bsonType: "object",
+      required: ["ID", "ReaderID", "BookID", "Sygnatura", "Data wypożyczenia", "Czas wypożyczenia"],
+      properties: {
+        ID: { bsonType: "int" },
+        ReaderID: { bsonType: "int" },
+        BookID: { bsonType: "int" },
+        Sygnatura: { bsonType: "string" },
+        "Data wypożyczenia": { bsonType: "date" },
+        "Czas wypożyczenia": { bsonType: "int" },
+      },
+    },
+  },
+});

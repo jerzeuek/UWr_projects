@@ -1,0 +1,14 @@
+d:\uniwerek\PO\L2\zad4\Zadanie4\bin\Debug\net8.0\Zadanie4.exe
+d:\uniwerek\PO\L2\zad4\Zadanie4\bin\Debug\net8.0\Zadanie4.deps.json
+d:\uniwerek\PO\L2\zad4\Zadanie4\bin\Debug\net8.0\Zadanie4.runtimeconfig.json
+d:\uniwerek\PO\L2\zad4\Zadanie4\bin\Debug\net8.0\Zadanie4.dll
+d:\uniwerek\PO\L2\zad4\Zadanie4\bin\Debug\net8.0\Zadanie4.pdb
+d:\uniwerek\PO\L2\zad4\Zadanie4\obj\Debug\net8.0\Zadanie4.GeneratedMSBuildEditorConfig.editorconfig
+d:\uniwerek\PO\L2\zad4\Zadanie4\obj\Debug\net8.0\Zadanie4.AssemblyInfoInputs.cache
+d:\uniwerek\PO\L2\zad4\Zadanie4\obj\Debug\net8.0\Zadanie4.AssemblyInfo.cs
+d:\uniwerek\PO\L2\zad4\Zadanie4\obj\Debug\net8.0\Zadanie4.csproj.CoreCompileInputs.cache
+d:\uniwerek\PO\L2\zad4\Zadanie4\obj\Debug\net8.0\Zadanie4.dll
+d:\uniwerek\PO\L2\zad4\Zadanie4\obj\Debug\net8.0\refint\Zadanie4.dll
+d:\uniwerek\PO\L2\zad4\Zadanie4\obj\Debug\net8.0\Zadanie4.pdb
+d:\uniwerek\PO\L2\zad4\Zadanie4\obj\Debug\net8.0\Zadanie4.genruntimeconfig.cache
+d:\uniwerek\PO\L2\zad4\Zadanie4\obj\Debug\net8.0\ref\Zadanie4.dll

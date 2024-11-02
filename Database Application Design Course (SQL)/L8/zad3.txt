@@ -1,0 +1,34 @@
+a) Return the movies where person A acted in:
+
+MATCH (person:Person {name: 'Martin Sheen'})-[:ACTED_IN]->(movie:Movie)
+RETURN movie;
+
+
+b) Return the movies where person A was both the actor and the director:
+
+MATCH (person:Person {name: 'Oliver Stone'})-[:ACTED_IN]->(movie:Movie)<-[:DIRECTED]-(person)
+RETURN movie;
+
+
+c) Return actors who didn’t play in any movie:
+
+MATCH (actor:Person)
+WHERE NOT (actor)-[:ACTED_IN]->()
+RETURN actor;
+
+
+d) Return actors who played in more than 2 movies:
+
+MATCH (actor:Person)-[:ACTED_IN]->(movie:Movie)
+WITH actor, COUNT(movie) AS movieCount
+WHERE movieCount > 2
+RETURN actor;
+
+
+e) Return movies with the largest number of actors:
+
+    MATCH (movie:Movie)<-[:ACTED_IN]-(actor:Person)
+    WITH movie, COUNT(actor) AS actorCount
+    ORDER BY actorCount DESC
+    LIMIT 1
+    RETURN movie;
