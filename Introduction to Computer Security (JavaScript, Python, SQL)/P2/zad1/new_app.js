@@ -502,8 +502,8 @@ server.listen(port, () => {
 });
 
 const GoogleStrategy = require('passport-google-oauth').OAuth2Strategy;
-const GOOGLE_CLIENT_ID = '346935353812-l4sn50l386a2a7vaio6vhagfmtfvohod.apps.googleusercontent.com';
-const GOOGLE_CLIENT_SECRET = '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';
+const GOOGLE_CLIENT_ID = 'XXXXXXXXXXXXXXXXXXXXX';
+const GOOGLE_CLIENT_SECRET = 'XXXXXXXXXXXXX';
 passport.use(new GoogleStrategy({
     clientID: GOOGLE_CLIENT_ID,
     clientSecret: GOOGLE_CLIENT_SECRET,
